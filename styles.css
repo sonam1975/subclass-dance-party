@@ -1,10 +1,16 @@
 body, html{
   height:100%;
+  overflow: hidden;
 }
 body{
   margin: 0px;
-  background-color:#444;
   font-size: 18px;
+  background: url('https://thumbs.gfycat.com/ValuableThisBighornedsheep-size_restricted.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -15,19 +21,34 @@ body, a:link, a:visited, a:active{
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #222;
+  font-family: helvetica;
+  color: #fff;
 }
 .title{
   background-color: #777;
 }
+
 .dancer {
-  border:10px solid red;
-  border-radius:10px;
   position:absolute;
 }
 
-.makeDancer {
-  border: 10px solid skyblue;
-  border-radius: 10px;
-  position: absolute;
+.jacky-blacky {
+  width: 250px;
+  height: auto;
 }
+
+.flossy-black {
+  width: 350px;
+  height: auto;
+}
+
+.floor {
+  height: 150px;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  border: solid 3px green;
+}
+
