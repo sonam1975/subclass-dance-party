@@ -9,7 +9,6 @@ makeBlinkyDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this, arguments);
 
   this.$node.toggle();
-  this.$node.html("<img class='jacky-blacky' src='https://media.giphy.com/media/8FGMuZ7rZXzfEP1EmW/giphy.gif'></img>");
-
+  this.$node.html("<img class='jacky-blacky' src='https://media.giphy.com/media/dQpqkxXyPvb2iImius/giphy.gif'></img>");
 };
 
